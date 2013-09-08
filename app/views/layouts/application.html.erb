@@ -1,19 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <title>Blog</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
+
+    <script src="http://use.typekit.net/ajf8ggy.js"></script>
+    <script>
+      try { Typekit.load(); } catch (e) {}
+    </script>
   </head>
   <body>
 
-    <%= render 'layouts/header' %>
+    <div class="pure-g-r" id="layout">
 
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+      <div class="sidebar pure-u">
+        <%= render 'layouts/header' %>
+      </div>
 
-    <%= yield %>
-
+      <div class="pure-u-1">
+        <div class="content">
+          <p class="notice"><%= notice %></p>
+          <p class="alert"><%= alert %></p>
+          <%= yield %>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
