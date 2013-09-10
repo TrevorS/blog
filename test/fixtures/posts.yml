@@ -2,13 +2,14 @@
 #
 # Table name: posts
 #
-#  id         :integer          not null, primary key
-#  name       :string(255)
-#  body       :text
-#  user_id    :integer
-#  points     :integer
-#  created_at :datetime
-#  updated_at :datetime
+#  id          :integer          not null, primary key
+#  name        :string(255)
+#  body        :text
+#  user_id     :integer
+#  points      :integer
+#  created_at  :datetime
+#  updated_at  :datetime
+#  description :text
 #
 
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
