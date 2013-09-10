@@ -4,4 +4,4 @@ Using color theme: [Thought Provoking](http://www.colourlovers.com/palette/69473
 
 Using google webfont: [PT Sans](http://www.google.com/fonts#UsePlace:use/Collection:PT+Sans)
 
-Inspired by [Pure Blog Layout](http://purecss.io/layouts/blog/)
+Inspired by: [Pure Blog Layout](http://purecss.io/layouts/blog/)
