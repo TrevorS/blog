@@ -36,6 +36,9 @@ gem 'jbuilder', '~> 1.2'
 # The Pure CSS toolkit
 gem 'purecss-rails'
 
+# Font Awesome
+gem 'font-awesome-sass-rails'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
